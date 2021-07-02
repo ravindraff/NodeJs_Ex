@@ -2,15 +2,7 @@ let http = require('http');
 let url = require('url');
 let server = http.createServer((req, res) => {
     res.writeHead(200,{'Content-Type': 'text/html'});
-    
-    let obj = url.parse(req.url).query;
-
-    res.write("<h1>"+obj+"</h1>")
-
-   /*  res.write(obj.uname);
-    res.write(obj.pwd); */
-    
-
+    let obj = url.parse(req.url,true).query;
     if (obj.uname === "admin" && obj.pwd === "admin") {        
         res.write("<h1>Login Success</h1>")
     } else {
