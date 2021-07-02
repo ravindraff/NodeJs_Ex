@@ -6,3 +6,14 @@
 GitHub:
 	User:ravindra.m568@gmail.com
 	Pwd :Ravi(#12)
+
+	git add .
+	git commit -m "first commit"
+	git status 
+    git push
+	
+
+
+    
+
+
