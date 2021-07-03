@@ -11,6 +11,9 @@ app.get('/login',(req: any, res: any):any=>{
         })
     }
 })
+app.get('/', (req: any, res: any)=>{
+    res.sendFile("D:/Practice Files/NodeJs_Ex/getparameters/index.html")
+})
 app.listen(
     8080, () => {
         console.log("server started successfully...")

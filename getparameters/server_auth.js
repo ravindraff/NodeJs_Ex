@@ -26,6 +26,9 @@ app.get('/login', [auth], function (req, res) {
         });
     }
 });
+app.get('/', function (req, res) {
+    res.sendFile("D:/Practice Files/NodeJs_Ex/getparameters/index.html");
+});
 app.listen(8080, function () {
     console.log("server started successfully...");
 });
