@@ -24,6 +24,6 @@ app.post('/login', [auth], (req: any, res: any): any => {
         res.status(401).json({ message: "Login Failure" })
     }
 });
-app.listen(8080, () => {
+app.listen(8070, () => {
     console.log("server started successfully on port ")
 })
