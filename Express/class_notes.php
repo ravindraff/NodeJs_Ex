@@ -74,3 +74,14 @@ collection : products
 user: nodejs_usr
 pwd:admin
 Connect to DB : mongodb+srv://nodejs_usr:admin@cluster0.6mktf.mongodb.net/nodjs_db?retryWrites=true&w=majority
+
+
+{
+	"_id":{"$oid":"60e2c8b7dba3f42c87e8ac69"},
+	"id":{"$numberInt":"4"},
+	"name":"Star",
+	"quantity":{"$numberInt":"100"},
+	"price":{"$numberInt":"1000"},
+	"category":"AC",
+	"image":"https://ecommerce-9am.s3.ap-south-1.amazonaws.com/p4.jpg"
+}
