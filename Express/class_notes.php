@@ -73,4 +73,4 @@ database : nodejs_db
 collection : products
 user: nodejs_usr
 pwd:admin
-Connect to DB : mongodb+srv://nodejs_usr :admin@cluster0.6mktf.mongodb.net/nodejs_db?retryWrites=true&w=majority
+Connect to DB : mongodb+srv://nodejs_usr:admin@cluster0.6mktf.mongodb.net/nodjs_db?retryWrites=true&w=majority
