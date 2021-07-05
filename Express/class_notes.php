@@ -60,3 +60,17 @@ GitHub:
 	app.listen(8080,(req, res) =>{
 		console.log("server started successfully.....")
 	});
+
+
+################################################################
+mongodb
+===============
+URl:https://www.mongodb.com/cloud/atlas
+Connect to DB : mongodb+srv://myproject:<password>@cluster0.6mktf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+
+database : nodejs_db
+collection : products
+user: nodejs_usr
+pwd:admin
+Connect to DB : mongodb+srv://nodejs_usr :admin@cluster0.6mktf.mongodb.net/nodejs_db?retryWrites=true&w=majority
