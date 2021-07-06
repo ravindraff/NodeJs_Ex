@@ -3,6 +3,8 @@
 			(or)
 =>yarn add express mongodb mongoose mysql --save
 =>yarn add express body-parser  @types/express @types/body-parser  --save
+=>npm i express body-parser cors mongodb mongoose   @types/express @types/body-parser @types/cors @types/mongodb 
+@types/mongoose  --save
 
 
 GitHub:
