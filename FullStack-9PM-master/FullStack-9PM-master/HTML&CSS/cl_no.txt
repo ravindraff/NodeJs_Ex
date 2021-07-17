@@ -1,0 +1,29 @@
+1) <b></b>     <strong></strong>  
+
+2) <i></i>     <em></em>
+
+3) <u></u>     <ins></ins>
+
+4) <small></small>
+
+5) <del></del>
+
+6) <code></code>
+
+7) <sup></sup>
+
+8) <sub></sub>
+
+9) <strike></strike>
+
+10) <address></address>
+
+11) <cite></cite>
+
+12) <blockquote></blockquote>
+
+13) <q></q>
+
+14) <span></span>
+
+15) <abbr></abbr>

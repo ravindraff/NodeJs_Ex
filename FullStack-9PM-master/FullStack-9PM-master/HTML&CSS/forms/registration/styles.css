@@ -1,0 +1,41 @@
+.registration-div{
+    background: linear-gradient(45deg,red,black,red);
+    width: 300px;
+    margin: 50px auto;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.registration-div h2{
+    text-align: center;
+}
+
+.form-group{
+    margin: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin: 10px 0px;
+}
+
+.form-control{
+    width: 280px;
+    height: 30px;    
+    outline: none;
+    border-radius: 20px;    
+}
+
+.my_btn{
+    width: 280px;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: linear-gradient(45deg,green,lightgreen);
+    color: whitesmoke; 
+    font-size: 20px;   
+}

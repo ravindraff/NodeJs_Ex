@@ -1,0 +1,124 @@
+<!--
+    HTML Supports 3 types of lists
+
+    => ul   (unordered list)
+
+    => ol   (ordered list)
+
+    => dl   (definition list)
+
+
+    <ul></ul>  ---   representing unordered list root element
+
+    <ol></ol>  ---   representing the ordered list root element
+
+    <dl></dl>  ---   representing the definition list root element
+
+    <li></li>  ---   elements under the lists
+
+    <dt></dt>  ---    heading under definition list
+
+    <dd></dd>  ---    content under the definition list
+-->
+
+<!--
+    type = "square" / "disc" / "circle"
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists in HTML</title>
+        <style>
+            div{
+                display: inline-block;
+                margin: 50px;
+            }
+            ul{
+                background-color: salmon;
+                list-style-type: none;
+            }
+            li{
+                background-color: sienna;
+                color: whitesmoke;
+                padding: 5px;
+                margin: 5px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px red;
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+            <div></div>  is the block level element
+        -->
+        <div>
+            <div>
+                <h3>
+                    <ul>
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </h3>
+            </div>
+
+            <div>
+                <h3>
+                    <ul type="square">
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </h3>
+            </div>
+
+            <div>
+                <h3>
+                    <ul type="disc">
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </h3>
+            </div>
+
+            <div>
+                <h3>
+                    <ul type="circle">
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </h3>
+            </div>
+        </div>
+    </body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

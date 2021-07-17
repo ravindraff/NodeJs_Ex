@@ -1,0 +1,73 @@
+<form method="GET" action="http://localhost:8080/">
+    <fieldset>
+        <legend>Registration Form</legend>
+        
+        <!-- First Name -->
+        <div>
+            <label for="First Name" style="margin-right: 100px;">First Name</label>
+            <input type="text" name="fname">
+        </div>
+
+        <br>
+        <div>
+            <label for="Last Name" style="margin-right: 100px;">Last Name</label>
+            <input type="text" name="lname">
+        </div>
+    
+        <br>
+        <div>
+            <label for="Email" style="margin-right: 130px;">Email</label>
+            <input type="email" name="email">
+        </div>
+
+        <br>
+        <div>
+            <label for="date of birth" style="margin-right: 110px;">Birthday</label>
+            <input type="date" name="dob">
+        </div>
+
+        <br>
+        <div>
+            <label for="gender" style="margin-right: 110px;">Gender</label>
+            
+            <input type="radio" name="gender" value="male"> 
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <br>
+        <div>
+            <label for="languges" style="margin-right: 90px;">Languages</label>
+            
+            <input type="checkbox" name="javascript" value="javascript">
+            <label for="javascript">JavaScript</label>
+
+            <input type="checkbox" name="angular" value="angular">
+            <label for="angular">Angular</label>
+
+            <input type="checkbox" name="reactjs" value="reactjs">
+            <label for="reactjs">ReactJS</label>
+        </div>
+
+        <br>
+        <div>
+            <label style="margin-right: 90px;">Department</label>
+            <select name="department">
+                <option value="training">Training</option>
+                <option value="development">Development</option>
+                <option value="h&r">H&R</option>
+            </select>
+        </div>
+
+        <br>
+        <div>
+            <label style="margin-right: 120px;">Address</label>
+            <textarea name="address" cols="15" rows="10"></textarea>
+        </div>
+
+        <br>
+        <input type="submit" value="Register">
+    </fieldset>
+</form>

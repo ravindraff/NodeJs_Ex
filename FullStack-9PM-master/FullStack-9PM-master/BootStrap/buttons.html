@@ -1,0 +1,143 @@
+<!--
+    1) btn
+    2) btn-*    (*=> colors)
+    3) btn-link
+    4) btn-outline-*  (*=>color)
+    5) btn-lg
+    6) btn-sm
+    7) disabled
+    8) tabindex="-1"
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+
+        <div class="container mt-5">
+            <div class="btn-toolbar">
+                <div class="btn-group me-2">
+                    <button class="btn btn-primary btn-sm">1</button>
+                    <button class="btn btn-primary btn-sm">2</button>
+                    <button class="btn btn-primary btn-sm">3</button>
+                    <button class="btn btn-primary btn-sm">4</button>
+                </div>
+
+                <div class="btn-group me-2">
+                    <button class="btn btn-primary btn-sm">5</button>
+                    <button class="btn btn-primary btn-sm">6</button>
+                    <button class="btn btn-primary btn-sm">7</button>
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn btn-primary btn-sm">8</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container mt-5">
+            <div class="btn-group">
+                <input type="radio" class="btn-check" id="angid" name="subjects">
+                <label class="btn btn-outline-primary" for="angid">Angular</label>
+
+                <input type="radio" class="btn-check" id="reactid" name="subjects">
+                <label class="btn btn-outline-primary" for="reactid">React</label>
+
+                <input type="radio" class="btn-check" id="vueid" name="subjects">
+                <label class="btn btn-outline-primary" for="vueid">VueJS</label>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="btn-group">
+                <button class="btn btn-primary btn-sm">Left</button>
+                <button class="btn btn-primary btn-sm">Middle</button>
+                <button class="btn btn-primary btn-sm">Right</button>
+            </div>
+
+
+            <div class="mt-2">
+                <div class="btn-group">
+                    <a class="btn btn-success active btn-lg">Left</a>
+                    <a class="btn btn-success btn-lg">Middle</a>
+                    <a class="btn btn-success btn-lg">Right</a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="container mt-5">
+            <button class="btn btn-primary">Button</button>
+            <button class="btn btn-secondary" tabindex="-1">Button</button>
+            <button class="btn btn-warning">Button</button>
+            <button class="btn btn-danger">Button</button>
+            <button class="btn btn-success">Button</button>
+            <button class="btn btn-info">Button</button>
+            <button class="btn btn-dark">Button</button>
+            <button class="btn btn-light">Button</button>
+            <button class="btn btn-link">Button</button>
+        </div>
+
+        <div class="container mt-5">
+            <a class="btn btn-success">Button</a>
+            <input type="submit" value="Submit" class="btn btn-primary">
+            <input type="reset" value="Reset" class="btn btn-info">
+        </div>
+
+        <div class="container mt-5">
+            <button class="btn btn-outline-primary">Button</button>
+            <button class="btn btn-outline-secondary">Button</button>
+            <button class="btn btn-outline-warning">Button</button>
+            <button class="btn btn-outline-danger">Button</button>
+            <button class="btn btn-outline-success">Button</button>
+            <button class="btn btn-outline-info">Button</button>
+            <button class="btn btn-outline-dark">Button</button>
+            <button class="btn btn-outline-light">Button</button>
+        </div>
+
+
+        <div class="container mt-5">
+            <button class="btn btn-success btn-lg">Button</button>
+            <button class="btn btn-success btn-sm">Button</button>
+            <button class="btn btn-success btn-lg" disabled>Button</button>
+        </div>
+
+
+        <div class="container mt-5 d-grid col-4 mx-auto gap-2">
+            <button class="btn btn-success">Button</button>
+            <button class="btn btn-success">Button</button>
+            <button class="btn btn-success">Button</button>
+            <button class="btn btn-success">Button</button>
+        </div>
+
+        <!--
+            1) btn-group
+            2) btn-check
+            3) btn btn-outline-primary
+        -->
+        <div class="btn-group">
+            <input type="checkbox" class="btn-check"  id="btncheck1">
+            <label class="btn btn-outline-danger" for="btncheck1">Angular</label>
+
+            <input type="checkbox" class="btn-check"  id="btncheck2">
+            <label class="btn btn-outline-danger" for="btncheck2">React</label>
+
+            <input type="checkbox" class="btn-check"  id="btncheck3">
+            <label class="btn btn-outline-danger" for="btncheck3">NodeJS</label>
+        </div>
+        
+
+        
+
+
+    </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables With CSS</title>
+        <style>
+            body{
+                font-family: "Comic Sans MS", "Comic Sans", cursive;
+            }
+            table,th,td{
+                border: 1px solid grey;
+                border-collapse: collapse;
+            }
+            th,td{
+                padding: 15px;
+                text-align: center;
+            }
+            th{
+               height: 50px;
+               vertical-align: bottom; 
+               background-color: chocolate;
+               color: whitesmoke;
+            }
+            tr:nth-child(even){
+              background-color: #ddd;  
+            }
+            tr:nth-child(odd){
+                background-color: lightblue;
+            }
+            tr:hover{
+                background-color: salmon
+            };
+            td{
+                color: grey;
+            };
+
+        </style>
+    </head>
+    <body>
+       <table align="center">
+           <tr>
+               <th id="col_1">SNO</th>
+               <th>AC Brand</th>
+               <th>Quantity</th>
+               <th>Price</th>
+               <th>Image</th>
+           </tr>
+
+           <tr>
+               <td id="col_1">1</td>
+               <td>Samsung</td>
+               <td>10</td>
+               <td>30000</td>
+               <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac1.jpeg"
+                        width="50%"
+                        alt="Network Error"></td>
+           </tr>
+
+           <tr>
+                <td id="col_1">2</td>
+                <td>Haier</td>
+                <td>100</td>
+                <td>20000</td>
+                <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac2.jpeg"
+                        width="50%"
+                        alt="Network Error"></td>
+          </tr>
+
+          <tr>
+            <td id="col_1">3</td>
+            <td>LG</td>
+            <td>10</td>
+            <td>10000</td>
+            <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac3.jpeg"
+                    width="50%"
+                    alt="Network Error"></td>
+          </tr>
+
+          <tr>
+            <td id="col_1">4</td>
+            <td>Sony</td>
+            <td>100</td>
+            <td>50000</td>
+            <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac4.jpeg"
+                    width="50%"
+                    alt="Network Error"></td>
+          </tr>
+
+          <tr>
+            <td id="col_1">5</td>
+            <td>Diakin</td>
+            <td>100</td>
+            <td>50000</td>
+            <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac5.jpeg"
+                    width="50%"
+                    alt="Network Error"></td>
+          </tr>
+
+          <tr>
+            <td id="col_1">6</td>
+            <td>Bluestar</td>
+            <td>10</td>
+            <td>10000</td>
+            <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac6.jpeg"
+                    width="50%"
+                    alt="Network Error"></td>
+          </tr>
+
+          <tr>
+            <td id="col_1">7</td>
+            <td>Diakin</td>
+            <td>100</td>
+            <td>50000</td>
+            <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac7.jpeg"
+                    width="50%"
+                    alt="Network Error"></td>
+          </tr>
+
+          <tr>
+            <td id="col_1">8</td>
+            <td>Diakin</td>
+            <td>100</td>
+            <td>50000</td>
+            <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac8.jpeg"
+                    width="50%"
+                    alt="Network Error"></td>
+          </tr>
+
+          <tr>
+            <td id="col_1">9</td>
+            <td>Diakin</td>
+            <td>100</td>
+            <td>50000</td>
+            <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac9.jpeg"
+                    width="50%"
+                    alt="Network Error"></td>
+          </tr>
+
+          <tr>
+            <td id="col_1">10</td>
+            <td>Diakin</td>
+            <td>100</td>
+            <td>50000</td>
+            <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/AC/ac10.jpeg"
+                    width="50%"
+                    alt="Network Error"></td>
+          </tr>
+
+       </table>
+    </body>
+</html>
